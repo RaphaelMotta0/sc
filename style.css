@@ -1,0 +1,77 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0;
+    margin:0;
+}
+
+header {
+    background-color: rgb(100, 99, 99);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+
+h1 {
+    color:greenyellow;
+    text-align: center ;
+    
+}
+
+.flex {
+    display: flex;
+
+
+}
+
+.inputsCnt {
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+
+label {
+    color: greenyellow;
+}
+
+#botaocalcular {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+
+}
+main {
+    background-color: rgb(133, 130, 130);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
+   
+}
+
+.calculoCnt {
+    width: 60px;
+   
+    padding: 30px;
+    
+}
+
+
+ table{
+    width: 1000px;
+ }
+td{
+    border: 1px solid black;
+}
+.nomeCalculo{
+    color:rgb(17, 194, 194);
+}
+
+.resultadoCalculo{
+    color: white;
+    font-size: 1.5em;
+}
